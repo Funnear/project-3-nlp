@@ -47,6 +47,16 @@ pip install --upgrade pip; \
 pip install -r requirements.txt
 ```
 
+Install Spanish model for SpaCy:
+```bash
+spacy download es_core_news_sm
+```
+
+Load the model in code:
+```python
+nlp_es = spacy.load("es_core_news_sm")
+```
+
 Install internal packages (like local modules or submodules):
 
 ```bash
