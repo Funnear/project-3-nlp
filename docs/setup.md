@@ -57,12 +57,6 @@ Load the model in code:
 nlp_es = spacy.load("es_core_news_sm")
 ```
 
-Install internal packages (like local modules or submodules):
-
-```bash
-pip install -e .
-```
-
 ---
 
 ## Enable Jupyter Kernel from This Virtual Environment
@@ -70,7 +64,7 @@ pip install -e .
 Precondition: install `ipykernel` in your requirements first.
 
 ```bash
-python -m ipykernel install --user --name=venv --display-name "Python 64 (venv)"
+python -m ipykernel install --user --name=venv --display-name "Python (venv)"
 ```
 
 Restart VS Code, open a notebook, and:
