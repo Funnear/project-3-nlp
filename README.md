@@ -21,4 +21,4 @@ Like in a real life scenario, you are able to make your own choices and text tre
 
 ## Links
 - [Setup instructions](./docs/setup.md)
-- [Presentation](./presentation)
+- [Presentation](./presentation/NLP_project_demo.pdf)
